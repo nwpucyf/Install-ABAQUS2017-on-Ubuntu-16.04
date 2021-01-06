@@ -28,3 +28,15 @@ VI:source ~/.bashrc and java -version
 
 ## Start the license
 
+1.Remove old SSQ SIMULIA FlexLM servers
+
+2.sudo mkdir /opt/DassaultSystemes
+
+3.sudo tar zxvf ./DS.SIMULIA.FLEXLM.LICENSE.SERVER.LINUX64-SSQ.tar.gz -C /opt/DassaultSystemes
+
+4.Rename  ABAQUSLM_SSQllic as ABAQUS.lic and change the this_host into "hostname" of the computer
+
+5./opt/DassaultSystemes/SIMULIA/License/lmgrd -c /opt/DassaultSystemes/SIMULIA/License/ABAQUS.lic
+
+
+
