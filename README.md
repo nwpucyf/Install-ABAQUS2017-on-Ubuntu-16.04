@@ -26,5 +26,5 @@ export PATH=$JAVA_HOME/bin:$JAVA_HOME/jre/bin:$PATH
 
 VI:source ~/.bashrc and java -version
 
-#Start the license
+## Start the license
 
