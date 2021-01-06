@@ -1,5 +1,6 @@
-## Install-ABAQUS2017-on-Ubuntu-16.04
-# Pre-requisities for installation  
+# Install-ABAQUS2017-on-Ubuntu-16.04
+
+## Pre-requisities for installation  
 
 1.sudo apt-get install csh tcsh ksh libstdc++5 gfortran python-pip libjpeg62 lsb-core libxm4  
 
@@ -24,4 +25,6 @@ export PATH=$JAVA_HOME/bin:$JAVA_HOME/jre/bin:$PATH
 
 
 VI:source ~/.bashrc and java -version
+
+#Start the license
 
