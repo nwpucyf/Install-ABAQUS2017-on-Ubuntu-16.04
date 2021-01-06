@@ -90,3 +90,14 @@ VI:source ~/.bashrc and java -version
 
 XLIB_SKIP_ARGB_VISUALS=1 /opt/DassaultSystemes/SIMULIA/Commands/abq2017 cae -mesa
 
+Or
+
+gedit ~/.bashrc  and add 
+
+export LM_LICENSE_FILE=27011@cyf-virtual-machine
+alias abalic=/opt/DassaultSystemes/SIMULIA/License/lmgrd\ -c\ /opt/DassaultSystemes/SIMULIA/License/ABAQUS.lic\ -l\ +/opt/DassaultSystemes/SIMULIA/License/ABAQUS.log
+alias abaqus='XLIB_SKIP_ARGB_VISUALS=1 /opt/DassaultSystemes/SIMULIA/Commands/abq2017'
+alias cae='abaqus cae -mesa'
+
+then source ~/.bashrc
+
