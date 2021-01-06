@@ -38,7 +38,7 @@ VI:source ~/.bashrc and java -version
 
 5./opt/DassaultSystemes/SIMULIA/License/lmgrd -c /opt/DassaultSystemes/SIMULIA/License/ABAQUS.lic
 
-6. If we want kill the license server, we can use  killall -9 ABAQUSLM
+6.If we want kill the license server, we can use  killall -9 ABAQUSLM
 
 ## Install the SIMULIA Suite (Documentation + Simulation Services + ABAQUS/CAE)
 
