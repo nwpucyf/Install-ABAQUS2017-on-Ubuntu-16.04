@@ -44,5 +44,49 @@ VI:source ~/.bashrc and java -version
 
 ### Start
 
+1.Unpack the .iso file
 
+2.find all the Linux.sh files
+
+3.open Linux.sh with VIM (I. Insert mode; II. change DSY_OS_Release=`lsb_release --short --id |sed 's/ //g'` into DSY_OS_Release="CentOS"; III. w !sudo tee %)
+
+2.cd ./1/
+
+3.export DSYAuthOS_`lsb_release -si`=1 && export DSY_Force_OS=linux_a64 && sudo ksh ./StartGUI.sh
+
+4.Do not install FLEXNET license server!!!
+
+### Install Documentation
+
+1.Select directory "/opt/DassaultSystemes/SIMULIA2017doc/"
+
+2.Continue Next until step is complete
+
+### Install Simulation Services and CAA API
+
+1.Select installation directory "/opt/DassaultSystemes/SimulationServices/V6R2017x"
+
+3.Select components (by default, all components are selected)
+
+3.Continue Next until step is complete
+
+### Install ABAQUS/CAE
+
+1.Select installation directory "/opt/DassaultSystemes/SIMULIA/CAE/2017"
+
+2.Select Simulation Services directory "/opt/DassaultSystemes/SimulationServices/V6R2017x"
+
+3.Select commands directory "/opt/DassaultSystemes/SIMULIA/Commands/"
+
+4.Select ABAQUS/CAE External plugins directory "/opt/DassaultSystemes/SIMULIA/CAE/plugins/2017"
+
+5.Select "SIMULIA FlexNET Licensing" and "27011@hostname" as License Server 1
+
+6.Select "enter a file path to documentation directory" and point to directory "/opt/DassaultSystemes/SIMULIA2017doc/"
+
+7.Continue Next until step is complete
+
+## Open ABAQUS
+
+XLIB_SKIP_ARGB_VISUALS=1 /opt/DassaultSystemes/SIMULIA/Commands/abq2017 cae -mesa
 
