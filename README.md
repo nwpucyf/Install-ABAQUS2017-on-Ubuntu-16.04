@@ -3,8 +3,7 @@
 
 1.sudo apt-get install csh tcsh ksh libstdc++5 gfortran python-pip libjpeg62 lsb-core libxm4  
 
-
-2. Install JDK :   
+2.Install JDK :   
 
 I. sudo mkdir /java  
 
